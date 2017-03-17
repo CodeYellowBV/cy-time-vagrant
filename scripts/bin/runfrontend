@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd /vagrant/cy-time
+make frontend-dev
