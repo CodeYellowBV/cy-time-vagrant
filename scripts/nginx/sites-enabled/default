@@ -18,6 +18,10 @@ server {
         # We could use gunicorn as a systemd service, but that makes
         # it somewhat harder to debug.
         proxy_pass http://127.0.0.1:5000;
+        proxy_http_version 1.1;
+        # Pass http "upgrade", if present.  This enables websockets.
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
 
         error_page 502 @start-backend-server;
         include /etc/nginx/headers.conf;
