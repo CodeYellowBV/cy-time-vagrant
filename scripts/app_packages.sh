@@ -3,7 +3,7 @@ set -e
 # set -x
 echo ">>> Installing app specific packages."
 
-apt-get install -qq libjpeg-dev zlib1g-dev postgresql-contrib fonts-liberation
+apt-get install -qq libjpeg-dev zlib1g-dev libevent-dev postgresql-contrib fonts-liberation
 
 # Install citext.
 su postgres -c "createdb -E UTF8 -T template0 template-cy" || true
