@@ -22,7 +22,3 @@ else
         exit 1
     fi
 fi
-
-cd /vagrant/cy-time
-ln -fs ../.env .env
-cd /vagrant
