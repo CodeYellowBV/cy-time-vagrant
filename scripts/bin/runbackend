@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd /vagrant/cy-time
+cd /vagrant/realtime
 make backend-dev

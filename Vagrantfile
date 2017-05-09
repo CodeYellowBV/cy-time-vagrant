@@ -5,12 +5,12 @@
 
 # Name of your project. This will be used for a number of things, like the name
 # of the VM.
-project = "cy-time"
+project = "realtime"
 hostname = project + ".test"
 vhosts = [hostname]
 
 # Databases to create in postgres.
-databases = ["cy-time"]
+databases = ["realtime"]
 
 # Set a local private network IP address.
 # See http://en.wikipedia.org/wiki/Private_network for explanation

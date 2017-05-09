@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DB_NAME="cy-time"
+DB_NAME="realtime"
 
 DUMPFILE=~/$DB_NAME-$(date +"%Y-%m-%d-%H-%M").pgdump
 

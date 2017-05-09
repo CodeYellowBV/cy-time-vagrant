@@ -9,13 +9,13 @@ echo ">>> Cloning repository."
 
 # Download application.
 cd /vagrant
-if [ -d "cy-time" ]; then
-    cd cy-time
+if [ -d "realtime" ]; then
+    cd realtime
     #git pull
     #git checkout master
     cd /vagrant
 else
-    git clone git@github.com:CodeYellowBV/cy-time.git
+    git clone git@github.com:CodeYellowBV/realtime.git
 
     if [ $? -eq 128 ]; then
         echo "git returned exit code 128. Make sure you have access to GitHub with your keys."

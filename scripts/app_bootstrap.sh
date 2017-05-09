@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-cd /vagrant/cy-time
+cd /vagrant/realtime
 
 echo ">>> Installing frontend"
 

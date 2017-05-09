@@ -1,6 +1,6 @@
-# cy-time-vagrant
+# realtime-vagrant
 
-This sets up a completely development-ready setup for [CY Time](https://github.com/CodeYellowBV/cy-time).
+This sets up a completely development-ready setup for [Realtime](https://github.com/CodeYellowBV/realtime).
 
 ## Requirements
 
@@ -14,7 +14,7 @@ Clone this repository and run `vagrant up`. Now wait. This can take very long, s
 
 Also be sure to enter this in your /etc/hosts:
 
-    10.10.10.22 cy-time.test
+    10.10.10.22 realtime.test
 
 If you wish to start multiple instances, edit `server_ip` in Vagrantfile and
 adjust the above line.
@@ -27,6 +27,6 @@ Run the backend with `runbackend`.
 
 Run the frontend with `runfrontend`.
 
-Access the database with `psql -d cy-time`.
+Access the database with `psql -d realtime`.
 
 See for some other executables the `scripts/bin` folder of this repository.
